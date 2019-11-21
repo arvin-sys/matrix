@@ -22,9 +22,9 @@ module.exports = {
             for(let k = 0; k < xCol; k++) {
 
                 mat[i][j] += x[i][k] * y[k][j];      
+                }
             }
         }
+        return mat;      
     }
-    return mat;      
-}
 }
